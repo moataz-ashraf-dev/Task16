@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: #121212;
+    overflow-x: hidden;
+}
+.nav1{
+    height:7vh;
+    background-color: #18181c;
+}
+.n-div{
+    width: 15%;
+}
+.icon{
+    color: #25262b;
+}
+.hero-section{
+    height: 75vh;
+    width: 100%;
+    background-color: #121212;
+}
+.h-div{
+    width: 30%;
+    background-color: #25262b;
+    box-shadow: 0 10px 30px rgba(72, 72, 120, 0.297);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.h-div:hover{
+    transform: translateY(-5px);
+}
+
+footer{
+    height: 10vh;
+    background-color: #18181c;
+    width: 100%;
+}
